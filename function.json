@@ -1,0 +1,20 @@
+{
+    "bindings": [
+      {
+        "name": "myBlob",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "uploads/{name}",
+        "connection": "<YourConnectionName>",
+        "dataType": "binary"
+      },
+      {
+        "type": "blob",
+        "name": "$return",
+        "path": "thumbs/{name}",
+        "connection": "<YourConnectionName>",
+        "direction": "out"
+      }
+    ],
+    "disabled": false
+  }
