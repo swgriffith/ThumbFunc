@@ -34,7 +34,7 @@ Note: Your storage account name must be unique
 
 12. Click on 'View Files' in the right hand pane and then select the 'function.json' file.
 
-13. Add the second section for the output (outbound) of the function, you can copy from the git repo. Make sure you update the 'connection' name to match the connection name used in the input were your 'uploads' and 'thumbs' containers are located. Also add the "dataType": "binary" line to the input section. When complete your function.json should look something like the following:
+13. Add the second section for the output (outbound) of the function, you can copy from the git repo. Make sure you update the 'connection' name to match the connection name used in the input were your 'uploads' and 'thumbs' containers are located. Also add the "dataType": "binary" line to the inbound section. When complete your function.json should look something like the following:
 
 ![Function JSON](https://github.com/swgriffith/ThumbFunc/raw/master/images/functionjson.PNG)
 
